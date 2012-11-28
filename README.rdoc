@@ -33,14 +33,16 @@ Each key is a tuple of value / attributes, but not all keys will have both
 Our you can get all packages from a repo using getList:
 
     >>> [ i['name'][0] for i in p.getList() ]
-    [u'php53u-suhosin', u'php54-pecl-mysqlnd-ms', u'mysql50', u'php54-pgsql84', u'php52-suhosin', u'php52-pear',
-    u'python26-memcached', u'php53u-pear', u'php53u-pgsql84', u'php52-pecl-apc', u'php53u-ioncube-loader', u'mysql55',
-    u'rsyslog4', u'php53u-pecl-imagick', u'php54-pecl-imagick', u'php53u-pecl-apc', u'php53u-pecl-geoip',
-    u'php52-ioncube-loader', u'php52-pecl-geoip', u'php52-xcache', u'yum-plugin-replace', u'python31-redis',
-    u'php53u', u'python26-jsonschema', u'php54-ioncube-loader', u'python26-lxml', u'epel-release', u'php54-xcache',
-    u'php54-pecl-geoip', u'php53u-pecl-memcached', u'php52-pecl-xdebug', u'php54-suhosin', u'php53u-eaccelerator',
-    u'php52', u'php54-pear', u'python31', u'php54', u'php53u-pecl-memcache', u'python26-elixir', u'php52-pecl-imagick',
-    u'mysqlclient15', u'mysql51', u'python31-hiredis', u'php53u-pecl-xdebug', u'php52-eaccelerator',
-    u'php54-pecl-xdebug', u'php53u-xcache', u'python31-mod_wsgi', u'ius-release', u'php54-pecl-memcache',
-    u'autoconf26x', u'python31-postgresql', u'php52-pecl-memcache', u'php54-pecl-apc', u'python31-distribute']
+    [u'php53u-suhosin', u'php54-pecl-mysqlnd-ms', u'mysql50', u'php54-pgsql84', u'php52-suhosin',
+    u'php52-pear', u'python26-memcached', u'php53u-pear', u'php53u-pgsql84', u'php52-pecl-apc',
+    u'php53u-ioncube-loader', u'mysql55', u'rsyslog4', u'php53u-pecl-imagick', u'php54-pecl-imagick',
+    u'php53u-pecl-apc', u'php53u-pecl-geoip', u'php52-ioncube-loader', u'php52-pecl-geoip',
+    u'php52-xcache', u'yum-plugin-replace', u'python31-redis', u'php53u', u'python26-jsonschema',
+    u'php54-ioncube-loader', u'python26-lxml', u'epel-release', u'php54-xcache', u'php54-pecl-geoip',
+    u'php53u-pecl-memcached', u'php52-pecl-xdebug', u'php54-suhosin', u'php53u-eaccelerator',
+    u'php52', u'php54-pear', u'python31', u'php54', u'php53u-pecl-memcache', u'python26-elixir',
+    u'php52-pecl-imagick', u'mysqlclient15', u'mysql51', u'python31-hiredis', u'php53u-pecl-xdebug',
+    u'php52-eaccelerator', u'php54-pecl-xdebug', u'php53u-xcache', u'python31-mod_wsgi',
+    u'ius-release', u'php54-pecl-memcache', u'autoconf26x', u'python31-postgresql',
+    u'php52-pecl-memcache', u'php54-pecl-apc', u'python31-distribute']
 
