@@ -1,0 +1,31 @@
+
+Usage for RepoParser
+
+    >>> from RepoParser.RepoParser import Parser
+    >>> p = Parser(url='http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/SRPMS/repodata/')
+
+Query a single Package
+
+    >>> package = p.getPackage('php53u')
+
+There can be more than one package by the same name in a repo (differnt versions)
+
+    >>> len(package)
+    1
+
+The package has the following keys
+
+    >>> package[0].keys()
+    [u'description', u'format', u'url', u'checksum', u'summary', u'version', u'location', u'time',
+    u'packager', u'size', u'arch', u'name']
+
+Each key is a tuple of value / attributes, but not all keys will have both
+
+    >>> package[0]['name']
+    (u'php53u', None)
+
+    >>> package[0]['version']
+    (None, {u'epoch': u'0', u'ver': u'5.3.17', u'rel': u'2.ius.el5'})
+
+    >>> package[0]['version'][1]['ver']
+    u'5.3.17'
