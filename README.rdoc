@@ -2,7 +2,7 @@
 Usage for RepoParser
 
     >>> from RepoParser.RepoParser import Parser
-    >>> p = Parser(url='http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/SRPMS/repodata/')
+    >>> p = Parser(url='http://dl.iuscommunity.org/pub/ius/stable/Redhat/5/SRPMS/repodata/primary.xml.gz')
 
 Query a single Package
 
