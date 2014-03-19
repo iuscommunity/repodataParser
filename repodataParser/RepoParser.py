@@ -9,7 +9,7 @@ class Parser:
 
     def __init__(self, *args, **kwargs):
         'Our initializer for the class'
-        if kwargs.has_key('url'):
+        if 'url' in kwargs:
             self.url = kwargs.get('url')
             self.__open()
             self.__decompress()
