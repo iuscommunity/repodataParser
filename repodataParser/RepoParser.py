@@ -74,3 +74,5 @@ class Parser:
             if pkg['name'][0] == package:
                 mypackages.append(pkg)
         return mypackages
+
+# vim: set syntax=python sw=4 ts=4 expandtab :
