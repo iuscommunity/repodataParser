@@ -1,9 +1,8 @@
-from setuptools import setup, find_packages
-import sys, os
+import setuptools
 
 version = '0.1'
 
-setup(
+setuptools.setup(
     name='repodataParser',
     version=version,
     description="A class for reading a Yum repos primary.xml.gz and returning data",
