@@ -3,8 +3,8 @@ import setuptools
 setuptools.setup(
     name='repodataParser',
     version='0.1',
-    description="A class for reading a Yum repos primary.xml.gz and returning data",
-    long_description="",
+    description='A class for reading a Yum repos primary.xml.gz and returning data',
+    long_description='',
     classifiers=[],
     keywords='',
     author='Jeffrey Ness',
