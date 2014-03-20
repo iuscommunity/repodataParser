@@ -9,7 +9,7 @@ setuptools.setup(
     keywords='',
     author='Jeffrey Ness',
     author_email='jeffrey.ness@rackspace.com',
-    url='',
+    url='https://github.com/iuscommunity/repodataParser',
     license='',
     packages=find_packages(exclude=['ez_setup', 'tests']),
     include_package_data=True,
