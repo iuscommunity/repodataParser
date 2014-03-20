@@ -11,7 +11,7 @@ setuptools.setup(
     author_email='jeffrey.ness@rackspace.com',
     url='https://github.com/iuscommunity/repodataParser',
     license='',
-    packages=find_packages(exclude=['ez_setup', 'tests']),
+    packages=setuptools.find_packages(exclude=['ez_setup', 'tests']),
     include_package_data=True,
     zip_safe=False,
     install_requires=[],
